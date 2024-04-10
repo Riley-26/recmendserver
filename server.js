@@ -13,7 +13,7 @@ app.use(cors({
 let prevData = "";
 let prevQuery = "";
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
     console.log(req)
     console.log("yes")
     res.send("Home");
