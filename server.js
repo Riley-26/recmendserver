@@ -6,7 +6,7 @@ const port = process.env.PORT || 443;
 
 app.use(express())
 app.use(cors({
-    origin: "https://recmend.web.app/",
+    origin: "https://recmend.web.app",
     methods: "GET, POST",
 }))
 
