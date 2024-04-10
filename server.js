@@ -14,6 +14,8 @@ let prevData = "";
 let prevQuery = "";
 
 app.get("/", (req, res) => {
+    console.log(req)
+    console.log("yes")
     res.send("Home");
 })
 
